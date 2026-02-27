@@ -32,7 +32,7 @@ Frontend     Vue 3, Angular 21, TypeScript, PrimeVue, PrimeNG
 Backend      FastAPI + SQLModel, Python, Node.js
 Database     PostgreSQL (Neon), Prisma ORM
 Auth         Clerk, OAuth2, TOTP, JWT
-IoT          Modbus TCP, OPC UA, RFID, WebSocket
+IoT          Modbus TCP, OPC UA, MQTT, RFID, WebSocket, Advantech ECU
 Cloud        Vercel, Render, Neon, GitHub Actions, Docker
 ```
 
