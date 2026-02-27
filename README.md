@@ -42,3 +42,4 @@ Chinese (Native) / English (Professional) / Japanese (JLPT N2, BJT J3)
 ## Links
 
 [Portfolio](https://portfolio.dashai.dev) / [LinkedIn](https://linkedin.com/in/seikaikyo) / seikaikyo@icloud.com
+
