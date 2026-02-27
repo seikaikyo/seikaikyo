@@ -27,12 +27,13 @@ Now I focus on LLM security — probing model behaviors across Chinese, English,
 
 ```
 AI/LLM       Claude API (Anthropic SDK), YOLO11, OpenCV
-Security     ISO 27001:2022, OWASP Top 10, OAuth2, MFA/TOTP, JWT
+Security     ISO 27001:2022, OWASP Top 10, RBAC, AES, Playwright E2E
 Frontend     Vue 3, Angular 21, TypeScript, PrimeVue, PrimeNG
 Backend      FastAPI + SQLModel, Python, Node.js
 Database     PostgreSQL (Neon), Prisma ORM
+Auth         Clerk, OAuth2, TOTP, JWT
 IoT          Modbus TCP, OPC UA, RFID, WebSocket
-DevOps       Vercel, Render, GitHub Actions, Docker
+Cloud        Vercel, Render, Neon, GitHub Actions, Docker
 ```
 
 ## Languages
