@@ -26,7 +26,7 @@ Now I focus on LLM security — probing model behaviors across Chinese, English,
 ## Tech Stack
 
 ```
-AI/LLM       Claude API (Anthropic SDK), YOLO11, OpenCV
+AI/LLM       Claude API (Anthropic SDK), YOLO11, OpenCV, Advantech VisionAI
 Security     ISO 27001:2022, OWASP Top 10, RBAC, AES, Playwright E2E
 Frontend     Vue 3, Angular 21, TypeScript, PrimeVue, PrimeNG
 Backend      FastAPI + SQLModel, Python, Node.js
