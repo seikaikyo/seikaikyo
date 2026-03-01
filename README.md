@@ -15,9 +15,14 @@ Now I focus on LLM security — probing model behaviors across Chinese, English,
 - [git-security-hooks](https://github.com/seikaikyo/git-security-hooks) — Pre-commit secret scanning with gitleaks
 - [git_cleaner](https://github.com/seikaikyo/git_cleaner) — Git sensitive data detection & cleanup for GitHub/GitLab
 
-**AI Applications**
-- [ai-english-tutor](https://github.com/seikaikyo/ai-english-tutor) — Voice-first English speaking practice with AI grammar correction
+**Esoteric & Classical Systems**
+- [sukuyodo](https://github.com/seikaikyo/sukuyodo) — Sukuyodo (宿曜道): Japanese esoteric Buddhist astrology system based on T21 No.1299. 27 lunar mansions, compatibility analysis with classical sutra references, daily fortune, and auspicious day finder. [Live](https://sukuyodo.dashai.dev/)
 - [DashAstro](https://github.com/seikaikyo/DashAstro) — Astrology analysis + AI-powered tarot readings
+
+**Language Learning**
+- [ai-english-tutor](https://github.com/seikaikyo/ai-english-tutor) — Voice-first English speaking practice with AI grammar correction
+- [jlpt-n1-learner](https://github.com/seikaikyo/jlpt-n1-learner) — AI-powered adaptive JLPT study platform (N5-N1) with grammar tracking
+- [toeic-practice](https://github.com/seikaikyo/toeic-practice) — TOEIC Reading drill app with practice mode & 75-min mock tests
 
 **Developer Tooling**
 - [dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E testing & AI vision analysis CLI toolkit
@@ -43,4 +48,3 @@ Chinese (Native) / English (Professional) / Japanese (JLPT N2, BJT J3)
 ## Links
 
 [Portfolio](https://portfolio.dashai.dev) / [LinkedIn](https://linkedin.com/in/seikaikyo)
-
