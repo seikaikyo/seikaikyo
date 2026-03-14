@@ -16,7 +16,7 @@ Now I focus on LLM security — probing model behaviors across Chinese, English,
 - [git_cleaner](https://github.com/seikaikyo/git_cleaner) — Git sensitive data detection & cleanup for GitHub/GitLab
 
 **Esoteric & Classical Systems**
-- [shukuyo](https://github.com/seikaikyo/shukuyo) — Shukuyodo (宿曜道): Japanese esoteric Buddhist astrology platform based on T21 No.1299. Personal fortune (daily/weekly/monthly/yearly), 27 mansion compatibility, HR talent matching with sutra-based placement guidance, headhunter cross-matrix analysis, and auspicious day calendar. Bilingual (ZH-TW/JA). [Live](https://shukuyo.dashai.dev/)
+- [shukuyo](https://github.com/seikaikyo/shukuyo) — Shukuyodo (宿曜道): Japanese esoteric Buddhist astrology platform based on T21 No.1299. Personal fortune (daily/weekly/monthly/yearly), 27 mansion compatibility, HR talent matching with sutra-based placement guidance, headhunter cross-matrix analysis, and auspicious day calendar. Trilingual (ZH-TW/JA/EN). [Live](https://shukuyo.dashai.dev/)
 - [DashAstro](https://github.com/seikaikyo/DashAstro) — Astrology analysis + AI-powered tarot readings
 
 **Language Learning**
