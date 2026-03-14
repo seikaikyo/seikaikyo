@@ -16,7 +16,7 @@ Now I focus on LLM security — probing model behaviors across Chinese, English,
 - [git_cleaner](https://github.com/seikaikyo/git_cleaner) — Git sensitive data detection & cleanup for GitHub/GitLab
 
 **Esoteric & Classical Systems**
-- [sukuyodo](https://github.com/seikaikyo/sukuyodo) — Sukuyodo (宿曜道): Japanese esoteric Buddhist astrology system based on T21 No.1299. 27 lunar mansions, compatibility analysis with classical sutra references, daily fortune, and auspicious day finder. [Live](https://sukuyodo.dashai.dev/)
+- [shukuyo](https://github.com/seikaikyo/shukuyo) — Shukuyodo (宿曜道): Japanese esoteric Buddhist astrology platform based on T21 No.1299. Personal fortune (daily/weekly/monthly/yearly), 27 mansion compatibility, HR talent matching with sutra-based placement guidance, headhunter cross-matrix analysis, and auspicious day calendar. Bilingual (ZH-TW/JA). [Live](https://shukuyo.dashai.dev/)
 - [DashAstro](https://github.com/seikaikyo/DashAstro) — Astrology analysis + AI-powered tarot readings
 
 **Language Learning**
@@ -25,7 +25,7 @@ Now I focus on LLM security — probing model behaviors across Chinese, English,
 - [toeic-practice](https://github.com/seikaikyo/toeic-practice) — TOEIC Reading drill app with practice mode & 75-min mock tests
 
 **Developer Tooling**
-- [dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E testing & AI vision analysis CLI toolkit
+- [dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E testing, AI vision analysis CLI toolkit. Includes CN-to-TW term checker and AI writing pattern detector
 - [dash-skills](https://github.com/seikaikyo/dash-skills) — Claude Code custom Skills for Angular/PrimeNG, FastAPI/SQLModel, OpenSpec SDD
 
 ## Tech Stack
