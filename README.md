@@ -14,6 +14,12 @@ Over the past two and a half years, I independently delivered 30+ enterprise sys
 
 > **[factory.dashai.dev](https://factory.dashai.dev)**
 
+![Investment Evaluator](assets/smart-factory-investment.png)
+
+![Dashboard](assets/smart-factory-dashboard.png)
+
+![9-Stage Production Flow](assets/smart-factory-flow.png)
+
 Everything a manufacturing digital transformation needs, built as a single full-stack application.
 
 | | |
