@@ -1,37 +1,33 @@
 # SeiKai Kyo
 
-**Systems Architect | Enterprise AI Solutions & Digital Transformation**
+**Shingon Buddhist priest who codes. 25 years on the factory floor.**
 
-25 years in IT and manufacturing. I go to where the problems are — sit with factory managers, figure out what needs fixing, and build systems that solve it.
+I sit with factory managers, figure out what breaks, and build systems that fix it. Over the past two and a half years, I independently delivered 30+ enterprise systems for a semiconductor materials manufacturer — MES, AI visual inspection (YOLO11), IoT automation, enterprise AI chatbot — all ISO 27001:2022 compliant.
 
-Over the past two and a half years, I independently delivered 30+ enterprise systems for a semiconductor materials manufacturer — MES, AI visual inspection (YOLO11), IoT automation, enterprise AI chatbot (Claude API) — all ISO 27001:2022 compliant. Started in IT, later moved to the factory floor because all systems were directly tied to production operations. Before that, I ran a software company for 19 years, delivering factory systems across 4 TSMC fabs and managing teams of up to 30 engineers.
+Before that, I ran a software company for 19 years, delivering factory systems across 4 TSMC fabs and managing teams of up to 30 engineers.
 
 ---
 
 ## Smart Factory Demo
 
-**A complete smart factory system — from order to shipment.**
+**25 years of factory knowledge, in one interactive system.**
 
 > **[factory.dashai.dev](https://factory.dashai.dev)**
-
-![Investment Evaluator](assets/smart-factory-investment.png)
 
 ![Dashboard](assets/smart-factory-dashboard.png)
 
 ![9-Stage Production Flow](assets/smart-factory-flow.png)
-
-Everything a manufacturing digital transformation needs, built as a single full-stack application.
 
 | | |
 |---|---|
 | **54** CRUD APIs | **9** Production Stages |
 | **15** AI Tools | **3** Languages (ZH/EN/JA) |
 
-**DashAI** — an AI assistant that doesn't just answer questions. It calls APIs to create work orders, change production statuses, check yield rates, and schedule shipments. 15 tools, real database operations, not document retrieval.
+**DashAI** — the panel on the bottom right of every page. It reads live factory data, flags non-conformance reports with three ranked options, and schedules orders to the right production line. It does not summarize. It operates.
 
-**BCM Simulation** — pick a disaster scenario and watch cascading impacts spread across departments in real-time. Compare AI-accelerated recovery against traditional approaches with a full RTO/RPO matrix.
+**BCM Simulation** — pick a disaster scenario and watch cascading impacts spread across departments in real-time. Full RTO/RPO matrix.
 
-**Agentic AI** — 5 factory agents in a collaboration network. Scenario theater replays multi-agent decision-making. An L1-to-L5 AI evolution roadmap shows where manufacturing intelligence is headed.
+**Agentic AI** — 5 factory agents in a collaboration network. Scenario theater replays multi-agent decision-making.
 
 ```
 Vue 3 + PrimeVue + TypeScript    FastAPI + SQLModel + Neon PostgreSQL
@@ -41,41 +37,59 @@ Vercel (frontend)                Render (backend)
 
 ---
 
+## Shukuyodo
+
+**A Shingon priest who codes, turning a 1200-year-old sutra into software.**
+
+> **[shukuyo.dashai.dev](https://shukuyo.dashai.dev)**
+
+![Today's Fortune](assets/shukuyo-today.png)
+
+![Compatibility](assets/shukuyo-compatibility.png)
+
+Kukai brought the Shukuyodo sutra from the Tang Dynasty to Japan in 806 AD. It maps how two people relate using 27 lunar mansions — where friction shows up, how to work around it.
+
+I translated the original scripture into a working system. Every result links back to the source text in the Taisho canon.
+
+| | |
+|---|---|
+| **27** Lunar Mansions | **6** Relationship Types |
+| **HR** & Headhunter Mode | **3** Languages (ZH/EN/JA) |
+
+Rule-based engine. No LLM decides your result. Personal data stays in your browser. Free to use.
+
+---
+
 ## What I Build
 
 **Enterprise AI & Manufacturing**
-- 30+ enterprise systems (MES, quality management, IoT, AI vision) — solo delivery, ISO 27001:2022 compliant
-- Enterprise AI chatbot with Claude API structured tool use + dual-layer API gateway (RESTful + MCP)
-- YOLO11 visual inspection: AOI defect detection, process analysis, factory security monitoring
-- Modbus TCP device automation, AMR dispatching (A* pathfinding), RFID material tracking
-
-**Esoteric & Classical Systems**
-- [shukuyo](https://github.com/seikaikyo/shukuyo) — Shukuyodo: Japanese esoteric Buddhist astrology (T21 No.1299). Fortune, 27 mansion compatibility, HR talent matching, auspicious calendar. Trilingual. [Live](https://shukuyo.dashai.dev/)
-- [DashAstro](https://github.com/seikaikyo/DashAstro) — Astrology analysis + AI-powered tarot readings
+- 30+ enterprise systems (MES, quality, IoT, AI vision) — solo delivery, ISO 27001:2022
+- Enterprise AI chatbot with Claude API structured tool use
+- YOLO11 visual inspection: AOI defect detection, process analysis
+- Modbus TCP automation, AMR dispatching, RFID material tracking
 
 **Language Learning**
-- [ai-english-tutor](https://github.com/seikaikyo/ai-english-tutor) — Voice-first English speaking practice with AI grammar correction. [Live](https://english.dashai.dev)
-- [jlpt-n1-learner](https://github.com/seikaikyo/jlpt-n1-learner) — AI-powered adaptive JLPT study platform (N5-N1) with grammar tracking
-- [toeic-practice](https://github.com/seikaikyo/toeic-practice) — TOEIC Reading drill app with practice mode & 75-min mock tests
+- [ai-english-tutor](https://english.dashai.dev) — Voice-first English speaking practice with AI grammar correction
+- [jlpt-n1-learner](https://github.com/seikaikyo/jlpt-n1-learner) — Adaptive JLPT study platform (N5-N1)
+- [toeic-practice](https://github.com/seikaikyo/toeic-practice) — TOEIC Reading drill app
 
 **Developer Tooling & Security**
-- [ai-red-team](https://github.com/seikaikyo/ai-red-team) — LLM adversarial testing toolkit. 177 attack templates across 12 categories in EN/ZH/JA. [Live](https://ai-red-team.dashai.dev)
-- [dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E testing, AI vision analysis CLI toolkit
-- [dash-skills](https://github.com/seikaikyo/dash-skills) — Claude Code custom Skills for Angular/PrimeNG, FastAPI/SQLModel, OpenSpec SDD
-- [git-security-hooks](https://github.com/seikaikyo/git-security-hooks) — Pre-commit secret scanning with gitleaks
-- [git_cleaner](https://github.com/seikaikyo/git_cleaner) — Git sensitive data detection & cleanup for GitHub/GitLab
+- [ai-red-team](https://ai-red-team.dashai.dev) — LLM adversarial testing toolkit, 177 templates across 12 categories
+- [dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E, AI vision CLI
+- [dash-skills](https://github.com/seikaikyo/dash-skills) — Claude Code custom Skills
+- [git-security-hooks](https://github.com/seikaikyo/git-security-hooks) — Pre-commit secret scanning
 
 ## Tech Stack
 
 ```
-AI/LLM       Claude API (Tool Use + Anthropic SDK), YOLO11, OpenCV
-Enterprise   MES, Digital Transformation (DX), Solution Architecture
-Security     ISO 27001:2022, OWASP Top 10, RBAC, AES, AI Red Teaming
+AI/LLM       Claude API (Tool Use), YOLO11, OpenCV
+Enterprise   MES, Digital Transformation, Solution Architecture
+Security     ISO 27001:2022, OWASP Top 10, RBAC, AI Red Teaming
 Frontend     Vue 3, Angular 21, TypeScript, PrimeVue, PrimeNG
 Backend      FastAPI + SQLModel, Python, Node.js
 Database     PostgreSQL (Neon), Prisma ORM
-IoT          Modbus TCP, OPC UA, RFID (EPC), WebSocket
-Cloud        Vercel, Render, Neon, GitHub Actions, Docker
+IoT          Modbus TCP, OPC UA, RFID, WebSocket
+Cloud        Vercel, Render, Neon, GitHub Actions
 ```
 
 ## Languages
