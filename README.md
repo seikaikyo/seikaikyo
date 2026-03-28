@@ -2,7 +2,7 @@
 
 **Shingon Buddhist priest who codes. 25 years on the factory floor.**
 
-I sit with factory managers, figure out what breaks, and build systems that fix it. Over the past two and a half years, I independently delivered 30+ enterprise systems for a semiconductor materials manufacturer — MES, AI visual inspection (YOLO11), IoT automation, enterprise AI chatbot — all ISO 27001:2022 compliant.
+I sit with factory managers, figure out what breaks, and build systems that fix it. Over the past two and a half years, I independently delivered 30+ enterprise systems for a semiconductor materials manufacturer — MES, AI visual inspection (YOLO11), IoT automation, enterprise AI chatbot — all following ISO 27001:2022 principles.
 
 Before that, I ran a software company for 19 years, delivering factory systems across 4 TSMC fabs and managing teams of up to 30 engineers.
 
