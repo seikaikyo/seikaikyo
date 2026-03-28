@@ -60,10 +60,35 @@ Rule-based engine. No LLM decides your result. Personal data stays in your brows
 
 ---
 
+## go-factory-io
+
+**Open-source SECS/GEM equipment driver in Go.**
+
+> **[github.com/seikaikyo/go-factory-io](https://github.com/seikaikyo/go-factory-io)**
+
+Started from reading SEMI specs for fun. Ended up implementing 12 standards, 5 protocols, and IEC 62443 security controls in a single static binary.
+
+| | |
+|---|---|
+| **12** SEMI Standards | E5, E30, E37, E87, E40, E90, E94, E116, E187, E191 |
+| **5** Protocols | HSMS, OPC-UA, MQTT, Modbus TCP, gRPC |
+| **Security** | Implements IEC 62443 SL4 controls (TLS/mTLS, RBAC, AES-GCM) |
+
+Builds on the work of secs4net, secsgem, secs4java8, and secs4go. Simulator-verified.
+
+```
+Go 1.22              Single static binary
+REST + SSE + gRPC    Prometheus metrics
+Cross-compile ARM64  Runs on Raspberry Pi
+```
+
+---
+
 ## What I Build
 
 **Enterprise AI & Manufacturing**
-- 30+ enterprise systems (MES, quality, IoT, AI vision) — solo delivery, ISO 27001:2022
+- 30+ enterprise systems (MES, quality, IoT, AI vision) — solo delivery, following ISO 27001:2022
+- Open-source SECS/GEM driver (go-factory-io) — 12 SEMI standards, multi-protocol, IEC 62443
 - Enterprise AI chatbot with Claude API structured tool use
 - YOLO11 visual inspection: AOI defect detection, process analysis
 - Modbus TCP automation, AMR dispatching, RFID material tracking
@@ -84,11 +109,12 @@ Rule-based engine. No LLM decides your result. Personal data stays in your brows
 ```
 AI/LLM       Claude API (Tool Use), YOLO11, OpenCV
 Enterprise   MES, Digital Transformation, Solution Architecture
-Security     ISO 27001:2022, OWASP Top 10, RBAC, AI Red Teaming
+SECS/GEM     HSMS, OPC-UA, MQTT, Modbus TCP (go-factory-io)
+Security     ISO 27001:2022, IEC 62443, OWASP Top 10, AI Red Teaming
 Frontend     Vue 3, Angular 21, TypeScript, PrimeVue, PrimeNG
-Backend      FastAPI + SQLModel, Python, Node.js
+Backend      FastAPI + SQLModel, Python, Go, Node.js
 Database     PostgreSQL (Neon), Prisma ORM
-IoT          Modbus TCP, OPC UA, RFID, WebSocket
+IoT          Modbus TCP, OPC UA, RFID, WebSocket, SECS/GEM
 Cloud        Vercel, Render, Neon, GitHub Actions
 ```
 
