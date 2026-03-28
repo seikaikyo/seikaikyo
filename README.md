@@ -89,6 +89,7 @@ Cross-compile ARM64  Runs on Raspberry Pi
 **Enterprise AI & Manufacturing**
 - 30+ enterprise systems (MES, quality, IoT, AI vision) — solo delivery, following ISO 27001:2022
 - Open-source SECS/GEM driver (go-factory-io) — 12 SEMI standards, multi-protocol, IEC 62443
+- [secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server) — MCP Server: control semiconductor equipment with natural language via Claude Code
 - Enterprise AI chatbot with Claude API structured tool use
 - YOLO11 visual inspection: AOI defect detection, process analysis
 - Modbus TCP automation, AMR dispatching, RFID material tracking
