@@ -102,6 +102,7 @@ Cross-compile ARM64  Runs on Raspberry Pi
 - [ai-red-team](https://ai-red-team.dashai.dev) — LLM adversarial testing toolkit, 177 templates across 12 categories
 - [dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E, AI vision CLI
 - [dash-skills](https://github.com/seikaikyo/dash-skills) — Claude Code custom Skills
+- [claude-code-skills](https://github.com/seikaikyo/claude-code-skills) — 7 reusable skills pack (OpenSpec, security review, build fix, refactor, architecture audit, FastAPI, Angular)
 - [git-security-hooks](https://github.com/seikaikyo/git-security-hooks) — Pre-commit secret scanning
 
 ## Tech Stack
