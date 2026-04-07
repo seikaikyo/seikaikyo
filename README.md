@@ -69,9 +69,9 @@ Rule-based engine. No LLM decides your result. Personal data stays in your brows
 | Repo | What it does |
 |---|---|
 | **go-factory-io** | SECS/GEM driver — 12 SEMI standards, 5 protocols, IEC 62443 SL4, single binary |
-| **go-edge-gateway** | Plugin-based device bridge (HSMS/Modbus/MQTT), YAML config, ARM64 field deployment |
+| **go-edge-gateway** | Device bridge + Modbus scanner — plugin architecture (HSMS/Modbus/MQTT), built-in scan API with embedded React UI, scan-to-config conversion, ARM64 deployment |
 | **go-ot-security** | OT/ICS security scanner — CVE detection, IEC 62443 + NIST CSF 2.0 compliance mapping, embedded React dashboard |
-| **dashai-go** | Shared Go API gateway — Chi + pgx + JWT/Logto, serves multiple modules on Render |
+| **dashai-go** | Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard, go-common unified modules, Render deployment |
 
 All single Go binaries. Cross-compile to ARM64. AI-assisted development.
 
@@ -81,7 +81,7 @@ All single Go binaries. Cross-compile to ARM64. AI-assisted development.
 
 **Enterprise AI & Manufacturing**
 - 30+ enterprise systems (MES, quality, IoT, AI vision) — solo delivery, following ISO 27001:2022
-- Go industrial platform (4 repos): go-factory-io (SECS/GEM driver), [go-edge-gateway](https://github.com/seikaikyo/go-edge-gateway) (device bridge), [go-ot-security](https://github.com/seikaikyo/go-ot-security) (OT security scanner), [dashai-go](https://github.com/seikaikyo/dashai-go) (shared API gateway)
+- Go industrial platform (4 repos + go-common): [go-factory-io](https://github.com/seikaikyo/go-factory-io) (SECS/GEM driver), [go-edge-gateway](https://github.com/seikaikyo/go-edge-gateway) (device bridge + Modbus scanner), [go-ot-security](https://github.com/seikaikyo/go-ot-security) (OT security scanner), [dashai-go](https://github.com/seikaikyo/dashai-go) (shared API gateway + dashboard)
 - [secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server) — MCP Server: control semiconductor equipment with natural language via Claude Code
 - Enterprise AI chatbot with Claude API structured tool use
 - YOLO11 visual inspection: AOI defect detection, process analysis
