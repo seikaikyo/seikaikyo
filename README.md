@@ -125,6 +125,7 @@ Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard
 <td>
 
 [Smart Factory Demo](https://factory.dashai.dev) — 30+ enterprise systems, MES, quality, IoT, AI vision<br>
+[GoTech Demo](https://gotech.dashai.dev) — Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
 [secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server) — Control semiconductor equipment via Claude Code<br>
 Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspection / Modbus TCP / AMR / RFID
 
