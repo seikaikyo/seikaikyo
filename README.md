@@ -11,7 +11,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 ### Now
 
 - Building **[Shukuyodo](https://shukuyo.dashai.dev)** — production on Nuxt 3, migrating to Next.js 16 + React 19
-- Targeting **FDE / Engineering Manager** roles in Japan (Randstad / ExecutiveSearch.AI)
+- Targeting **Manufacturing AI Engineer / FDE / Engineering Manager** roles in Japan (Randstad / ExecutiveSearch.AI)
 - Maintaining **4 Go industrial repos** — SECS/GEM driver, edge gateway, OT security scanner, shared API gateway
 
 ---
