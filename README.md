@@ -127,6 +127,7 @@ Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard
 [Smart Factory Demo](https://factory.dashai.dev) — 30+ enterprise systems, MES, quality, IoT, AI vision<br>
 [GoTech Demo](https://gotech.dashai.dev) — Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
 [secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server) — Control semiconductor equipment via Claude Code<br>
+[shopfloor](https://github.com/seikaikyo/shopfloor) (private) — Shop Floor Control prototype for nicegarden meat processing facility, tablet-first PWA, on-prem deployment target. Phase 1: carcass weight OCR (glm-ocr) + processing department timesheet + linear approval workflow + electronic scale PoC<br>
 Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspection / Modbus TCP / AMR / RFID
 
 </td>
@@ -168,7 +169,8 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 | **Frontend** | Nuxt 3, Vue 3, React 19, Next.js 16, Angular 21, TypeScript, PrimeVue, shadcn/ui, PrimeNG |
 | **Backend** | Go (Chi + pgx), FastAPI + SQLModel, Node.js |
 | **Database** | PostgreSQL (Neon), Prisma ORM |
-| **IoT** | Modbus TCP, OPC UA, RFID, WebSocket, SECS/GEM |
+| **IoT** | Modbus TCP, OPC UA, RFID, WebSocket, SECS/GEM, Electronic Scale (RS-232) |
+| **OCR / PWA** | glm-ocr (handwritten pig ID), Tablet-first PWA |
 | **Cloud** | Vercel, Render, Neon, GitHub Actions |
 
 ---
