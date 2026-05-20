@@ -1,18 +1,18 @@
 # SeiKai Kyo
 
-**Shingon Buddhist priest who codes. 25 years on the factory floor.**
+**Manufacturing AI / Data Science Engineer. 25 years on the factory floor.**
 
-I sit with factory managers, figure out what breaks, and build systems that fix it. Over the past two and a half years, I independently delivered 30+ enterprise systems for a semiconductor materials manufacturer — MES, AI visual inspection (YOLO11), IoT automation, enterprise AI chatbot — all following ISO 27001:2022 principles.
+I build the data science and AI that manufacturing runs on: yield prediction, anomaly detection, drift monitoring, and the smart-factory infrastructure underneath. Over the past two and a half years I independently delivered 30+ enterprise systems for a semiconductor materials manufacturer (MES, AI visual inspection with YOLO11, IoT automation, enterprise AI chatbot), all following ISO 27001:2022 principles.
 
-Before that, I ran a software company for 19 years, delivering factory systems across 4 TSMC fabs and managing teams of up to 30 engineers.
+Before that, I ran a software company for 19 years, delivering factory systems across 4 TSMC fabs and managing teams of up to 30 engineers. (Also an ordained Shingon Buddhist priest, a rare domain crossover.)
 
 ---
 
 ### Now
 
-- Building **[Shukuyodo](https://shukuyo.seikai.dev)**: production Nuxt 3 (SSR) + Go backend
-- Targeting **Manufacturing AI Engineer / FDE / Engineering Manager** roles in Japan (Randstad / ExecutiveSearch.AI)
-- Maintaining **4 Go industrial repos** — SECS/GEM driver, edge gateway, OT security scanner, shared API gateway
+- Building **data science demos** end to end: [Fab Analytics](https://fab-analytics.seikai.dev) (BigQuery ETL, XGBoost / CatBoost yield prediction, Isolation Forest anomaly detection, PSI/KS drift, weekly retrain) and [AMC Analytics](https://amc-analytics.seikai.dev)
+- Targeting **Manufacturing AI / Data Science / FDE** roles in Japan (Randstad / ExecutiveSearch.AI)
+- Maintaining production demos (Shukuyodo: Nuxt 3 + Go) and **4 Go industrial repos** (SECS/GEM driver, edge gateway, OT security scanner, shared API gateway)
 
 ---
 
@@ -20,10 +20,11 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 | | |
 |---|---|
+| **Data science across the line** | Yield prediction, anomaly detection, drift monitoring, MLOps (XGBoost / CatBoost / Isolation Forest / BigQuery) |
 | **30+** enterprise systems delivered solo (MES, quality, IoT, AI vision) | Following ISO 27001:2022 |
 | **4** TSMC fabs, **19** years running a software company | Up to 30 engineers managed |
 | **Shingon priest** + semiconductor developer | Rare domain crossover |
-| **11** production languages | ZH (Native) / EN (Professional) / JA (JLPT N2, taking N1 July 2026) |
+| **11** production languages | ZH (Native) / EN (Professional) / JA (JLPT N2, BJT J3) |
 
 ---
 
@@ -31,6 +32,27 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### [Fab Analytics](https://fab-analytics.seikai.dev)
+
+End-to-end semiconductor data science, on simulated fab data.
+
+![Fab Analytics](assets/fab-analytics.png)
+
+| | |
+|---|---|
+| **XGBoost / CatBoost** yield prediction | **Isolation Forest** anomaly detection |
+| **BigQuery** ETL + lineage | **MLOps**: PSI/KS drift, weekly retrain |
+
+Wafer / lot / equipment / sensor / defect schema across nodes N3-N14. Yield prediction (R² 0.80 / 0.81 ensemble), anomaly detection (F1 0.98), feature importance, AutoML comparison, drift dashboard. All data simulated, not derived from any company.
+
+```
+Next.js 16 + FastAPI
+BigQuery + Vertex AI + GCP
+```
+
+</td>
 <td width="50%" valign="top">
 
 ### [Smart Factory Demo](https://factory.seikai.dev)
@@ -44,33 +66,12 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 | **54** CRUD APIs | **9** Production Stages |
 | **15** AI Tools | **3** Languages |
 
-DashAI reads live factory data, flags NCRs with ranked options, and schedules orders. BCM simulation with cascading impacts and RTO/RPO matrix. 5 factory agents in a collaboration network.
+Reads live factory data, flags NCRs with ranked options, and schedules orders. BCM simulation with cascading impacts and RTO/RPO matrix. 5 factory agents in a collaboration network.
 
 ```
 Vue 3 + PrimeVue + TypeScript
 FastAPI + SQLModel + Neon PostgreSQL
 Claude AI (Tool Use) / Vercel + Render
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [Shukuyodo](https://shukuyo.seikai.dev)
-
-A 1200-year-old sutra turned into software.
-
-![Today's Fortune](assets/shukuyo-today.png)
-
-| | |
-|---|---|
-| **27** Lunar Mansions | **6** Relationship Types |
-| **HR** & Headhunter Mode | **3** Languages |
-
-Kukai brought the Shukuyodo sutra from Tang Dynasty to Japan in 806 AD. I translated the original scripture into a working engine. Every result links back to the Taisho canon source text. Rule-based, no LLM. Personal data stays in your browser.
-
-```
-Nuxt 3 (SSR) + Vue 3 + PrimeVue
-Go (Chi + pgx) / Vercel + Render
 ```
 
 </td>
