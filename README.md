@@ -172,7 +172,7 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 | **Enterprise** | MES, Digital Transformation, Solution Architecture |
 | **SECS/GEM** | HSMS, OPC-UA, MQTT, Modbus TCP |
 | **Security** | ISO 27001:2022, IEC 62443, OWASP Top 10, AI Red Teaming |
-| **Frontend** | Nuxt 3, Vue 3, React 19, Next.js 16, Angular 21, TypeScript, PrimeVue, shadcn/ui, PrimeNG |
+| **Frontend** | React 19, Next.js 16, Vue 3, Nuxt 3, Angular 21, TypeScript, shadcn/ui, PrimeVue, PrimeNG |
 | **Backend** | Go (Chi + pgx), FastAPI + SQLModel, Node.js |
 | **Database** | PostgreSQL (Neon), Prisma ORM |
 | **IoT** | Modbus TCP, OPC UA, RFID, WebSocket, SECS/GEM, Electronic Scale (RS-232) |
@@ -187,6 +187,6 @@ Chinese (Native) / English (Professional) / Japanese (JLPT N2, BJT J3 — taking
 
 ---
 
-[Portfolio](https://portfolio.dashai.dev) / [LinkedIn](https://linkedin.com/in/seikaikyo)
+[Portfolio](https://portfolio.seikai.dev) / [LinkedIn](https://linkedin.com/in/seikaikyo)
 
 *AI-assisted development with Claude Code.*
