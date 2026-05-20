@@ -10,7 +10,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 ### Now
 
-- Building **[Shukuyodo](https://shukuyo.dashai.dev)** — production on Nuxt 3, migrating to Next.js 16 + React 19
+- Building **[Shukuyodo](https://shukuyo.seikai.dev)** — production on Nuxt 3, migrating to Next.js 16 + React 19
 - Targeting **Manufacturing AI Engineer / FDE / Engineering Manager** roles in Japan (Randstad / ExecutiveSearch.AI)
 - Maintaining **4 Go industrial repos** — SECS/GEM driver, edge gateway, OT security scanner, shared API gateway
 
@@ -33,7 +33,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 <tr>
 <td width="50%" valign="top">
 
-### [Smart Factory Demo](https://factory.dashai.dev)
+### [Smart Factory Demo](https://factory.seikai.dev)
 
 25 years of factory knowledge, in one interactive system.
 
@@ -55,7 +55,7 @@ Claude AI (Tool Use) / Vercel + Render
 </td>
 <td width="50%" valign="top">
 
-### [Shukuyodo](https://shukuyo.dashai.dev)
+### [Shukuyodo](https://shukuyo.seikai.dev)
 
 A 1200-year-old sutra turned into software.
 
@@ -124,8 +124,11 @@ Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard
 <td><b>Enterprise AI & Manufacturing</b></td>
 <td>
 
-[Smart Factory Demo](https://factory.dashai.dev) — 30+ enterprise systems, MES, quality, IoT, AI vision<br>
-[GoTech Demo](https://gotech.dashai.dev) — Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
+[Smart Factory Demo](https://factory.seikai.dev) — 30+ enterprise systems, MES, quality, IoT, AI vision<br>
+[GoTech Demo](https://gotech.seikai.dev) — Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
+[Fab Analytics](https://fab-analytics.seikai.dev) — Semiconductor front-end data science on simulated data (BigQuery ETL, XGBoost/CatBoost, Isolation Forest)<br>
+[AMC Analytics](https://amc-analytics.seikai.dev) — AMC filter analytics methodology (Thomas breakthrough + XGBoost, LSTM + CatBoost, full MLOps)<br>
+[Factory Designer](https://designer.seikai.dev) — MES low-code workflow and form designer (drag-and-drop, client-only, JSON export)<br>
 [secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server) — Control semiconductor equipment via Claude Code<br>
 [shopfloor](https://github.com/seikaikyo/shopfloor) (private) — Shop Floor Control prototype for nicegarden meat processing facility, tablet-first PWA, on-prem deployment target. Phase 1: carcass weight OCR (glm-ocr) + processing department timesheet + linear approval workflow + electronic scale PoC<br>
 Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspection / Modbus TCP / AMR / RFID
@@ -136,7 +139,7 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 <td><b>Language Learning</b></td>
 <td>
 
-[ai-english-tutor](https://english.dashai.dev) — Voice-first speaking practice with AI grammar correction<br>
+[ai-english-tutor](https://english.seikai.dev) — Voice-first speaking practice with AI grammar correction<br>
 [jlpt-n1-learner](https://github.com/seikaikyo/jlpt-n1-learner) — Adaptive JLPT study (N5-N1)<br>
 [toeic-practice](https://github.com/seikaikyo/toeic-practice) — TOEIC Reading drill app
 
@@ -149,7 +152,10 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 [dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E, AI vision CLI (on PyPI: pip install dash-devtools)<br>
 [dash-skills](https://github.com/seikaikyo/dash-skills) — Claude Code custom Skills<br>
 [claude-code-skills](https://github.com/seikaikyo/claude-code-skills) — 7 reusable skills pack<br>
-[ai-red-team](https://ai-red-team.dashai.dev) — LLM adversarial testing, 177 templates across 12 categories<br>
+[ai-red-team](https://ai-red-team.seikai.dev) — LLM adversarial testing, 177 templates across 12 categories<br>
+[trace-demo](https://trace-demo.seikai.dev) — 7-layer distributed tracing with root cause attribution<br>
+[gitguard_sync](https://github.com/seikaikyo/gitguard_sync) — GitLab/GitHub dual-platform repo security sync<br>
+[DashAstro](https://github.com/seikaikyo/DashAstro) — Astronomy/astrology toolkit (Skyfield planetary calc + Claude)<br>
 [git-security-hooks](https://github.com/seikaikyo/git-security-hooks) — Pre-commit secret scanning
 
 </td>
