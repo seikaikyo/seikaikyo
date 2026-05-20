@@ -146,7 +146,7 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 <td><b>Developer Tooling</b></td>
 <td>
 
-[dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E, AI vision CLI<br>
+[dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E, AI vision CLI (on PyPI: pip install dash-devtools)<br>
 [dash-skills](https://github.com/seikaikyo/dash-skills) — Claude Code custom Skills<br>
 [claude-code-skills](https://github.com/seikaikyo/claude-code-skills) — 7 reusable skills pack<br>
 [ai-red-team](https://ai-red-team.dashai.dev) — LLM adversarial testing, 177 templates across 12 categories<br>
