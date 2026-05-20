@@ -184,7 +184,7 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 
 ## Languages
 
-Chinese (Native) / English (Professional) / Japanese (JLPT N2, BJT J3 — taking N1 in July 2026)
+Chinese (Native) / English (Professional) / Japanese (JLPT N2, BJT J3)
 
 ---
 
