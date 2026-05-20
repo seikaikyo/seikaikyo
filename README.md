@@ -38,7 +38,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 End-to-end semiconductor data science, on simulated fab data.
 
-![Fab Analytics](assets/fab-analytics.png)
+![Fab Analytics](assets/fab-analytics-overview.png)
 
 | | |
 |---|---|
