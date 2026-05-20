@@ -38,7 +38,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 End-to-end semiconductor data science, on simulated fab data.
 
-![Fab Analytics](assets/fab-analytics-overview.png)
+<img src="assets/fab-analytics-card.png" width="100%" alt="Fab Analytics" />
 
 | | |
 |---|---|
@@ -59,7 +59,7 @@ BigQuery + Vertex AI + GCP
 
 25 years of factory knowledge, in one interactive system.
 
-![Dashboard](assets/smart-factory-dashboard.png)
+<img src="assets/smart-factory-dashboard.png" width="100%" alt="Smart Factory Demo" />
 
 | | |
 |---|---|
