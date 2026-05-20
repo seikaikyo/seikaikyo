@@ -30,53 +30,29 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 ## Flagship Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### [Fab Analytics](https://fab-analytics.seikai.dev)
 
-End-to-end semiconductor data science, on simulated fab data.
+End-to-end semiconductor data science, on simulated fab data. Wafer / lot / equipment / sensor / defect schema across nodes N3-N14. Yield prediction (R² 0.80 / 0.81 ensemble), anomaly detection (F1 0.98), feature importance, AutoML comparison, drift dashboard. All data simulated, not derived from any company.
 
-<img src="assets/fab-analytics-card.png" width="100%" alt="Fab Analytics" />
+| | | |
+|---|---|---|
+| **XGBoost / CatBoost** yield prediction | **Isolation Forest** anomaly detection | **BigQuery** ETL + lineage + **MLOps** (PSI/KS drift, weekly retrain) |
 
-| | |
-|---|---|
-| **XGBoost / CatBoost** yield prediction | **Isolation Forest** anomaly detection |
-| **BigQuery** ETL + lineage | **MLOps**: PSI/KS drift, weekly retrain |
+`Next.js 16 + FastAPI · BigQuery + Vertex AI + GCP`
 
-Wafer / lot / equipment / sensor / defect schema across nodes N3-N14. Yield prediction (R² 0.80 / 0.81 ensemble), anomaly detection (F1 0.98), feature importance, AutoML comparison, drift dashboard. All data simulated, not derived from any company.
-
-```
-Next.js 16 + FastAPI
-BigQuery + Vertex AI + GCP
-```
-
-</td>
-<td width="50%" valign="top">
+<img src="assets/fab-analytics-card.png" width="800" alt="Fab Analytics" />
 
 ### [Smart Factory Demo](https://factory.seikai.dev)
 
-25 years of factory knowledge, in one interactive system.
+25 years of factory knowledge, in one interactive system. Reads live factory data, flags NCRs with ranked options, and schedules orders. BCM simulation with cascading impacts and RTO/RPO matrix. 5 factory agents in a collaboration network.
 
-<img src="assets/smart-factory-dashboard.png" width="100%" alt="Smart Factory Demo" />
+| | | |
+|---|---|---|
+| **54** CRUD APIs | **9** Production Stages | **15** AI Tools · **3** Languages |
 
-| | |
-|---|---|
-| **54** CRUD APIs | **9** Production Stages |
-| **15** AI Tools | **3** Languages |
+`Vue 3 + PrimeVue + TypeScript · FastAPI + SQLModel + Neon · Claude AI (Tool Use)`
 
-Reads live factory data, flags NCRs with ranked options, and schedules orders. BCM simulation with cascading impacts and RTO/RPO matrix. 5 factory agents in a collaboration network.
-
-```
-Vue 3 + PrimeVue + TypeScript
-FastAPI + SQLModel + Neon PostgreSQL
-Claude AI (Tool Use) / Vercel + Render
-```
-
-</td>
-</tr>
-</table>
+<img src="assets/smart-factory-dashboard.png" width="800" alt="Smart Factory Demo" />
 
 ---
 
