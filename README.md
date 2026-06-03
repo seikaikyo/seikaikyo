@@ -106,6 +106,7 @@ Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard
 [Fab Analytics](https://fab-analytics.seikai.dev) — Semiconductor front-end data science on simulated data (BigQuery ETL, XGBoost/CatBoost, Isolation Forest)<br>
 [AMC Analytics](https://amc-analytics.seikai.dev) — AMC filter analytics methodology (Thomas breakthrough + XGBoost, LSTM + CatBoost, full MLOps)<br>
 [Factory Designer](https://designer.seikai.dev) — MES low-code workflow and form designer (drag-and-drop, client-only, JSON export)<br>
+[Motion Study](https://motion.seikai.dev) — Method-study tool: standard vs. target operation aligned element by element, standard time + motion-class breakdown + ECRS countermeasures (client-only, synthetic demo data)<br>
 [secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server) — Control semiconductor equipment via Claude Code<br>
 [shopfloor](https://github.com/seikaikyo/shopfloor) (private) — Shop Floor Control prototype for nicegarden meat processing facility, tablet-first PWA, on-prem deployment target. Phase 1: carcass weight OCR (glm-ocr) + processing department timesheet + linear approval workflow + electronic scale PoC<br>
 Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspection / Modbus TCP / AMR / RFID
