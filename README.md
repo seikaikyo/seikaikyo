@@ -2,9 +2,9 @@
 
 **Manufacturing AI / Data Science Engineer. 25 years on the factory floor.**
 
-I build the data science and AI that manufacturing runs on: yield prediction, anomaly detection, drift monitoring, and the smart-factory infrastructure underneath. Over the past two and a half years I independently delivered 30+ enterprise systems for a semiconductor materials manufacturer (MES, AI visual inspection with YOLO11, IoT automation, enterprise AI chatbot), all following ISO 27001:2022 principles.
+I build the data science and AI that manufacturing runs on: yield prediction, anomaly detection, drift monitoring, and the smart-factory infrastructure underneath. Over the past two and a half years I independently delivered 16 enterprise systems for a semiconductor materials manufacturer (MES, AI visual inspection with YOLO11, IoT automation, enterprise AI chatbot), all following ISO 27001:2022 principles.
 
-Before that, I ran a software company for 19 years, delivering factory systems across 4 TSMC fabs and managing teams of up to 30 engineers. (Also an ordained Shingon Buddhist priest, a rare domain crossover.)
+Before that, I ran a software company for 19 years, delivering factory systems across 4 TSMC fabs and managing teams of up to 35 engineers. (Also an ordained Shingon Buddhist priest, a rare domain crossover.)
 
 ---
 
@@ -21,8 +21,8 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 | | |
 |---|---|
 | **Data science across the line** | Yield prediction, anomaly detection, drift monitoring, MLOps (XGBoost / CatBoost / Isolation Forest / BigQuery) |
-| **30+** enterprise systems delivered solo (MES, quality, IoT, AI vision) | Following ISO 27001:2022 |
-| **4** TSMC fabs, **19** years running a software company | Up to 30 engineers managed |
+| **16** enterprise systems delivered solo (MES, quality, IoT, AI vision) | Following ISO 27001:2022 |
+| **4** TSMC fabs, **19** years running a software company | Up to 35 engineers managed |
 | **Shingon priest** + semiconductor developer | Rare domain crossover |
 | **11** production languages | ZH (Native) / EN (Professional) / JA (JLPT N2, BJT J3) |
 
@@ -38,7 +38,7 @@ End-to-end semiconductor data science, on simulated fab data. Wafer / lot / equi
 |---|---|---|
 | **XGBoost / CatBoost** yield prediction | **Isolation Forest** anomaly detection | **BigQuery** ETL + lineage + **MLOps** (PSI/KS drift, weekly retrain) |
 
-`Next.js 16 + FastAPI · BigQuery + Vertex AI + GCP`
+`Next.js 16 + FastAPI · BigQuery + GCP`
 
 <img src="assets/fab-analytics-card.png" width="800" alt="Fab Analytics" />
 
@@ -48,7 +48,7 @@ End-to-end semiconductor data science, on simulated fab data. Wafer / lot / equi
 
 | | | |
 |---|---|---|
-| **54** CRUD APIs | **9** Production Stages | **15** AI Tools · **3** Languages |
+| **54** Subsystems (shared CRUD) | **9** Production Stages | **15** AI Tools · **3** Languages |
 
 `Vue 3 + PrimeVue + TypeScript · FastAPI + SQLModel + Neon · Claude AI (Tool Use)`
 
@@ -101,7 +101,7 @@ Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard
 <td><b>Enterprise AI & Manufacturing</b></td>
 <td>
 
-[Smart Factory Demo](https://factory.seikai.dev) — 30+ enterprise systems, MES, quality, IoT, AI vision<br>
+[Smart Factory Demo](https://factory.seikai.dev) — 16 enterprise systems, MES, quality, IoT, AI vision<br>
 [GoTech Demo](https://gotech.seikai.dev) — Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
 [Fab Analytics](https://fab-analytics.seikai.dev) — Semiconductor front-end data science on simulated data (BigQuery ETL, XGBoost/CatBoost, Isolation Forest)<br>
 [AMC Analytics](https://amc-analytics.seikai.dev) — AMC filter analytics methodology (Thomas breakthrough + XGBoost, LSTM + CatBoost, full MLOps)<br>
