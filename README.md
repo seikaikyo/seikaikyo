@@ -24,7 +24,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 | **16** enterprise systems delivered solo (MES, quality, IoT, AI vision) | Following ISO 27001:2022 |
 | **4** TSMC fabs, **19** years running a software company | Up to 35 engineers managed |
 | **Shingon priest** + semiconductor developer | Rare domain crossover |
-| **11** production languages | ZH (Native) / EN (Professional) / JA (JLPT N2, BJT J3) |
+| **11** production languages | ZH (Native) / EN (Professional) / JA (BJT J3 418, JPT 640 / JLPT N2 equivalent) |
 
 ---
 
@@ -161,7 +161,7 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 
 ## Languages
 
-Chinese (Native) / English (Professional) / Japanese (JLPT N2, BJT J3)
+Chinese (Native) / English (Professional) / Japanese (BJT J3 418, JPT 640 / JLPT N2 equivalent)
 
 ---
 
