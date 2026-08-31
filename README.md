@@ -132,7 +132,6 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 [claude-code-skills](https://github.com/seikaikyo/claude-code-skills) — 7 reusable skills pack<br>
 [ai-red-team](https://ai-red-team.seikai.dev) — LLM adversarial testing, 177 templates across 12 categories<br>
 [trace-demo](https://trace-demo.seikai.dev) — 7-layer distributed tracing with root cause attribution<br>
-[gitguard_sync](https://github.com/seikaikyo/gitguard_sync) — GitLab/GitHub dual-platform repo security sync<br>
 [DashAstro](https://github.com/seikaikyo/DashAstro) — Astronomy/astrology toolkit (Skyfield planetary calc + Claude)<br>
 [git-security-hooks](https://github.com/seikaikyo/git-security-hooks) — Pre-commit secret scanning
 
