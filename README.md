@@ -17,13 +17,13 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 ## Highlights
 
-| | |
-|---|---|
-| **Data science across the line** | Yield prediction, anomaly detection, drift monitoring, MLOps (XGBoost / CatBoost / Isolation Forest / BigQuery) |
-| **16** enterprise systems delivered solo (MES, quality, IoT, AI vision) | Following ISO 27001:2022 |
-| **4** TSMC fabs, **19** years running a software company | Up to 35 engineers managed |
-| **Shingon priest** + semiconductor developer | Rare domain crossover |
-| **11** production languages | ZH (Native) / EN (Professional) / JA (BJT J3 418, JPT 640 / JLPT N2 equivalent) |
+<table>
+<tr><td><b>Data science across the line</b></td><td>Yield prediction, anomaly detection, drift monitoring, MLOps (XGBoost / CatBoost / Isolation Forest / BigQuery)</td></tr>
+<tr><td><b>16</b> enterprise systems delivered solo (MES, quality, IoT, AI vision)</td><td>Following ISO 27001:2022</td></tr>
+<tr><td><b>4</b> TSMC fabs, <b>19</b> years running a software company</td><td>Up to 35 engineers managed</td></tr>
+<tr><td><b>Shingon priest</b> + semiconductor developer</td><td>Rare domain crossover</td></tr>
+<tr><td><b>11</b> production languages</td><td>ZH (Native) / EN (Professional) / JA (BJT J3 418, JPT 640 / JLPT N2 equivalent)</td></tr>
+</table>
 
 ---
 
@@ -33,9 +33,9 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 End-to-end semiconductor data science, on simulated fab data. Wafer / lot / equipment / sensor / defect schema across nodes N3-N14. Yield prediction (R² 0.80 / 0.81 ensemble), anomaly detection (F1 0.98), feature importance, AutoML comparison, drift dashboard. All data simulated, not derived from any company.
 
-| | | |
-|---|---|---|
-| **XGBoost / CatBoost** yield prediction | **Isolation Forest** anomaly detection | **BigQuery** ETL + lineage + **MLOps** (PSI/KS drift, weekly retrain) |
+<table>
+<tr><td><b>XGBoost / CatBoost</b> yield prediction</td><td><b>Isolation Forest</b> anomaly detection</td><td><b>BigQuery</b> ETL + lineage + <b>MLOps</b> (PSI/KS drift, weekly retrain)</td></tr>
+</table>
 
 `Next.js 16 + FastAPI · BigQuery + GCP`
 
@@ -45,9 +45,9 @@ End-to-end semiconductor data science, on simulated fab data. Wafer / lot / equi
 
 25 years of factory knowledge, in one interactive system. Reads live factory data, flags NCRs with ranked options, and schedules orders. BCM simulation with cascading impacts and RTO/RPO matrix. 5 factory agents in a collaboration network.
 
-| | | |
-|---|---|---|
-| **54** Subsystems (shared CRUD) | **9** Production Stages | **15** AI Tools · **3** Languages |
+<table>
+<tr><td><b>54</b> Subsystems (shared CRUD)</td><td><b>9</b> Production Stages</td><td><b>15</b> AI Tools · <b>3</b> Languages</td></tr>
+</table>
 
 `Vue 3 + PrimeVue + TypeScript · FastAPI + SQLModel + Neon · Claude AI (Tool Use)`
 
