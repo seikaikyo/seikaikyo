@@ -11,7 +11,6 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 ### Now
 
 - Building **data science demos** end to end: [Fab Analytics](https://fab-analytics.seikai.dev) (BigQuery ETL, XGBoost / CatBoost yield prediction, Isolation Forest anomaly detection, PSI/KS drift, weekly retrain) and [AMC Analytics](https://amc-analytics.seikai.dev)
-- Targeting **Manufacturing AI / Data Science / FDE** roles in Japan (Randstad / ExecutiveSearch.AI)
 - Maintaining production demos (Shukuyodo: Nuxt 3 + Go) and **4 Go industrial repos** (SECS/GEM driver, edge gateway, OT security scanner, shared API gateway)
 
 ---
@@ -65,13 +64,13 @@ End-to-end semiconductor data science, on simulated fab data. Wafer / lot / equi
 <td width="50%" valign="top">
 
 ### [go-factory-io](https://github.com/seikaikyo/go-factory-io)
-SECS/GEM driver — 12 SEMI standards, 5 protocols, IEC 62443 SL4, single binary
+SECS/GEM driver: 12 SEMI standards, 5 protocols, IEC 62443 SL4, single binary
 
 </td>
 <td width="50%" valign="top">
 
 ### [go-edge-gateway](https://github.com/seikaikyo/go-edge-gateway)
-Device bridge + Modbus scanner — plugin architecture, scan-to-config, ARM64
+Device bridge + Modbus scanner: plugin architecture, scan-to-config, ARM64
 
 </td>
 </tr>
@@ -79,13 +78,13 @@ Device bridge + Modbus scanner — plugin architecture, scan-to-config, ARM64
 <td width="50%" valign="top">
 
 ### [go-ot-security](https://github.com/seikaikyo/go-ot-security)
-OT/ICS security scanner — CVE detection, IEC 62443 + NIST CSF 2.0 compliance
+OT/ICS security scanner: CVE detection, IEC 62443 + NIST CSF 2.0 compliance
 
 </td>
 <td width="50%" valign="top">
 
-### [dashai-go](https://github.com/seikaikyo/dashai-go)
-Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard
+### dashai-go (private)
+Shared Go API gateway: Chi + pgx + JWT/Logto, embedded monitoring dashboard
 
 </td>
 </tr>
@@ -101,14 +100,13 @@ Shared Go API gateway — Chi + pgx + JWT/Logto, embedded monitoring dashboard
 <td><b>Enterprise AI & Manufacturing</b></td>
 <td>
 
-[Smart Factory Demo](https://factory.seikai.dev) — 16 enterprise systems, MES, quality, IoT, AI vision<br>
-[GoTech Demo](https://gotech.seikai.dev) — Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
-[Fab Analytics](https://fab-analytics.seikai.dev) — Semiconductor front-end data science on simulated data (BigQuery ETL, XGBoost/CatBoost, Isolation Forest)<br>
-[AMC Analytics](https://amc-analytics.seikai.dev) — AMC filter analytics methodology (Thomas breakthrough + XGBoost, LSTM + CatBoost, full MLOps)<br>
-[Factory Designer](https://designer.seikai.dev) — MES low-code workflow and form designer (drag-and-drop, client-only, JSON export)<br>
-[Motion Study](https://motion.seikai.dev) — Method-study tool: standard vs. target operation aligned element by element, standard time + motion-class breakdown + ECRS countermeasures (client-only, synthetic demo data)<br>
-[secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server) — Control semiconductor equipment via Claude Code<br>
-[shopfloor](https://github.com/seikaikyo/shopfloor) (private) — Shop Floor Control prototype for nicegarden meat processing facility, tablet-first PWA, on-prem deployment target. Phase 1: carcass weight OCR (glm-ocr) + processing department timesheet + linear approval workflow + electronic scale PoC<br>
+[Smart Factory Demo](https://factory.seikai.dev): 16 enterprise systems, MES, quality, IoT, AI vision<br>
+[GoTech Demo](https://gotech.seikai.dev): Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
+[Fab Analytics](https://fab-analytics.seikai.dev): Semiconductor front-end data science on simulated data (BigQuery ETL, XGBoost/CatBoost, Isolation Forest)<br>
+[AMC Analytics](https://amc-analytics.seikai.dev): AMC filter analytics methodology (Thomas breakthrough + XGBoost, LSTM + CatBoost, full MLOps)<br>
+[Factory Designer](https://designer.seikai.dev): MES low-code workflow and form designer (drag-and-drop, client-only, JSON export)<br>
+[Motion Study](https://motion.seikai.dev): Method-study tool, standard vs. target operation aligned element by element, standard time + motion-class breakdown + ECRS countermeasures (client-only, synthetic demo data)<br>
+[secsgem-mcp-server](https://github.com/seikaikyo/secsgem-mcp-server): Control semiconductor equipment via Claude Code<br>
 Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspection / Modbus TCP / AMR / RFID
 
 </td>
@@ -117,9 +115,9 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 <td><b>Language Learning</b></td>
 <td>
 
-[ai-english-tutor](https://english.seikai.dev) — Voice-first speaking practice with AI grammar correction<br>
-[jlpt-n1-learner](https://github.com/seikaikyo/jlpt-n1-learner) — Adaptive JLPT study (N5-N1)<br>
-[toeic-practice](https://github.com/seikaikyo/toeic-practice) — TOEIC Reading drill app
+[ai-english-tutor](https://english.seikai.dev): Voice-first speaking practice with AI grammar correction<br>
+jlpt-n1-learner (private): Adaptive JLPT study (N5-N1)<br>
+[toeic-practice](https://github.com/seikaikyo/toeic-practice): TOEIC Reading drill app
 
 </td>
 </tr>
@@ -127,13 +125,13 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 <td><b>Developer Tooling</b></td>
 <td>
 
-[dash-devtools](https://github.com/seikaikyo/dash-devtools) — Validation, E2E, AI vision CLI (on PyPI: pip install dash-devtools)<br>
-[dash-skills](https://github.com/seikaikyo/dash-skills) — Claude Code custom Skills<br>
-[claude-code-skills](https://github.com/seikaikyo/claude-code-skills) — 7 reusable skills pack<br>
-[ai-red-team](https://ai-red-team.seikai.dev) — LLM adversarial testing, 177 templates across 12 categories<br>
-[trace-demo](https://trace-demo.seikai.dev) — 7-layer distributed tracing with root cause attribution<br>
-[DashAstro](https://github.com/seikaikyo/DashAstro) — Astronomy/astrology toolkit (Skyfield planetary calc + Claude)<br>
-[git-security-hooks](https://github.com/seikaikyo/git-security-hooks) — Pre-commit secret scanning
+[dash-devtools](https://github.com/seikaikyo/dash-devtools): Validation, E2E, AI vision CLI (on PyPI: pip install dash-devtools)<br>
+[dash-skills](https://github.com/seikaikyo/dash-skills): Claude Code custom Skills<br>
+[claude-code-skills](https://github.com/seikaikyo/claude-code-skills): 7 reusable skills pack<br>
+[ai-red-team](https://ai-red-team.seikai.dev): LLM adversarial testing, 189 templates across 13 categories<br>
+[trace-demo](https://trace-demo.seikai.dev): 7-layer distributed tracing with root cause attribution<br>
+[DashAstro](https://github.com/seikaikyo/DashAstro): Astronomy/astrology toolkit (Skyfield planetary calc + Claude)<br>
+[git-security-hooks](https://github.com/seikaikyo/git-security-hooks): Pre-commit secret scanning
 
 </td>
 </tr>
@@ -153,7 +151,7 @@ Enterprise AI chatbot (Claude API structured tool use) / YOLO11 visual inspectio
 | **Backend** | Go (Chi + pgx), FastAPI + SQLModel, Node.js |
 | **Database** | PostgreSQL (Neon), Prisma ORM |
 | **IoT** | Modbus TCP, OPC UA, RFID, WebSocket, SECS/GEM, Electronic Scale (RS-232) |
-| **OCR / PWA** | glm-ocr (handwritten pig ID), Tablet-first PWA |
+| **OCR / PWA** | glm-ocr, Tablet-first PWA |
 | **Cloud** | Vercel, Render, Neon, GitHub Actions |
 
 ---
