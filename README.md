@@ -10,7 +10,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 ### Now
 
-- Building **data science demos** end to end: [Fab Analytics](https://fab-analytics.seikai.dev) (BigQuery ETL, XGBoost / CatBoost yield prediction, Isolation Forest anomaly detection, PSI/KS drift, weekly retrain) and [AMC Analytics](https://amc-analytics.seikai.dev)
+- Building **data science demos** end to end: Fab Analytics (BigQuery ETL, XGBoost / CatBoost yield prediction, Isolation Forest anomaly detection, PSI/KS drift, weekly retrain) and [AMC Analytics](https://amc-analytics.seikai.dev)
 - Maintaining production demos (Shukuyodo: Nuxt 3 + Go) and **4 Go industrial repos** (SECS/GEM driver, edge gateway, OT security scanner, shared API gateway)
 
 ---
@@ -29,7 +29,7 @@ Before that, I ran a software company for 19 years, delivering factory systems a
 
 ## Flagship Projects
 
-### [Fab Analytics](https://fab-analytics.seikai.dev)
+### Fab Analytics
 
 End-to-end semiconductor data science, on simulated fab data. Wafer / lot / equipment / sensor / defect schema across nodes N3-N14. Yield prediction (R² 0.80 / 0.81 ensemble), anomaly detection (F1 0.98), feature importance, AutoML comparison, drift dashboard. All data simulated, not derived from any company.
 
@@ -102,7 +102,7 @@ Shared Go API gateway: Chi + pgx + JWT/Logto, embedded monitoring dashboard
 
 [Smart Factory Demo](https://factory.seikai.dev): 16 enterprise systems, MES, quality, IoT, AI vision<br>
 [GoTech Demo](https://gotech.seikai.dev): Interactive enterprise architecture for 10K-1M users (Go + React + K8s)<br>
-[Fab Analytics](https://fab-analytics.seikai.dev): Semiconductor front-end data science on simulated data (BigQuery ETL, XGBoost/CatBoost, Isolation Forest)<br>
+Fab Analytics: Semiconductor front-end data science on simulated data (BigQuery ETL, XGBoost/CatBoost, Isolation Forest)<br>
 [AMC Analytics](https://amc-analytics.seikai.dev): AMC filter analytics methodology (Thomas breakthrough + XGBoost, LSTM + CatBoost, full MLOps)<br>
 [Factory Designer](https://designer.seikai.dev): MES low-code workflow and form designer (drag-and-drop, client-only, JSON export)<br>
 [Motion Study](https://motion.seikai.dev): Method-study tool, standard vs. target operation aligned element by element, standard time + motion-class breakdown + ECRS countermeasures (client-only, synthetic demo data)<br>
